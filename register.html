@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get" id="form" name="form">
+            <h1>Register Form</h1>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="cpassword">Confirm Password</label>
+                <input type="cpassword" id="cpassword" name="cpassword">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="fathername">Father Name</label>
+                <input type="text" id="fathername" name="fathername">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender">Male
+                <input type="radio" id="gender" name="gender">Female
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="mobile">Mobile No</label>
+                <input type="number" id="mobile" name="mobile" onkeyup="val(this)">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email id</label>
+                <input type="email" id="email" name="email">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="aadhar">AADHAR No</label>
+                <input type="number" id="aadhar" name="aadhar">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="photo">Upload a Photo</label>
+                <input type="file" id="photo" name="photo">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    
+</body>
+
+</html>
